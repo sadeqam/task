@@ -45,6 +45,9 @@ Endpoint:
 Endpoints:
 * http://localhost:8080/doctors/{id}
 * http://localhost:8080/patients/{id}
+</br>
+
+> **Note:** By default spring boot application starts on port number 8080. If port 8080 is occupied in your system then you can change the port number by uncommenting and updating the **server.port** property inside the **application.yml** file that is available inside the **src > main > resources** folder.
 
 
 ##  Technologies Used 
@@ -55,6 +58,4 @@ Endpoints:
 ##  IDE used
 *  IntelliJ IDEA
 
-
-> **Note:** By default spring boot application starts on port number 8080. If port 8080 is occupied in your system then you can change the port number by uncommenting and updating the **server.port** property inside the **application.yml** file that is available inside the **src > main > resources** folder.
 
