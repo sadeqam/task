@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:db
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
+  jpa:
+    open-in-view: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+        hbm2ddl:
+          auto: update
+  h2:
+    console:
+      enabled: true #default path: http://localhost:8080/h2-console
+
+server:
+  error:
+    include-message: always
+    include-binding-errors: always
+    include-exception: true
