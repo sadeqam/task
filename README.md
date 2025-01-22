@@ -37,7 +37,7 @@ Endpoints:
 * http://localhost:8080/match/{id}/basedOn/specialization
 
 ### Put Method
-Endpoint:
+Endpoints:
 * http://localhost:8080/doctors
 * http://localhost:8080/patients
 
